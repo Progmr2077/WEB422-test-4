@@ -1,7 +1,12 @@
-import "@/styles/globals.css";
 import React from "react";
-import StudentForm from "../studentform.js";
+import StudentForm from "./StudentForm";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function App() {
+  return (
+    <div>
+      <StudentForm />
+    </div>
+  );
 }
+
+export default App;
