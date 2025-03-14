@@ -1,6 +1,5 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import "./StudentForm.css"; // Import CSS file for styling
 
 const StudentForm = () => {
   const {
